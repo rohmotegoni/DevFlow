@@ -10,13 +10,8 @@ export default async function Home() {
   console.log(session)
   return (
     <div>
-    <form className="px-10 py-[100px]" action={ async () => {
-      'use server'
 
-      await signOut({redirectTo: '/sign-in'})
-    }}>
-      <Button type="submit"> Log Out </Button>
-    </form>
+
     </div>
     
     
